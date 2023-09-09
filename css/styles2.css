@@ -1,0 +1,491 @@
+body {
+    background: #000;
+    color: #FFF;
+}
+
+.nav__ul {
+    background: #ffffff;
+    text-align: right;
+    position: fixed;
+    z-index: 120;
+    width: 100vw;
+
+}
+
+@media only screen and (max-width: 470px) {
+    .nav__ul{
+        display: none;
+    }
+
+}
+.nav__li {
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+.nav__li a {
+    text-decoration: none;
+    margin: 1em;
+
+
+}
+
+.section__presentation {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    padding: 50px;
+}
+
+.section__presentation h1 {
+    /* font-family: 'Shadows Into Light', cursive;*/
+    font-family: 'Permanent Marker', cursive;
+    font-size: 3em;
+}
+
+.section__experience {
+
+    min-height: 100vh;
+    font-size: 20px;
+}
+
+.section__experience h2 {
+    font-size: 3em;
+    font-family: 'Shadows Into Light', cursive;
+    text-align: center;
+}
+
+.section__experience--container {
+    border: 2px solid rgb(244, 87, 25);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0px 13vw;
+    margin-bottom: 20px;
+
+}
+
+.section__experience--proyecto--container {
+    width: 60%;
+    min-width: 450px;
+    padding: 20px;
+}
+
+.section__experience--proyecto {
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 2.5em;
+}
+
+
+.section__experience--cargo {
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
+    color: #6c757d;
+}
+
+.section__experience--descipcion ul {
+    margin-left: 30px;
+    color: #6c757d;
+}
+
+.section__experience--view {
+    width: 20%;
+    min-width: 300px;
+    padding: 10px;
+    z-index: 10;
+
+
+
+}
+
+.section__experience--view:hover {
+    transform: scale(105%);
+    transition: transform 1s;
+    box-shadow: 0px 0px 100px -35px white;
+
+}
+
+
+
+
+
+.section__experience--view p {
+    font-size: 0.7em;
+}
+
+.section__experience--view a {
+    color: #fff;
+    text-decoration: none;
+    background: rgb(244, 87, 25);
+    display: inline-block;
+    position: relative;
+    width: calc(100%);
+    bottom: -10px;
+    text-align: center;
+}
+
+
+
+
+@media only screen and (max-width: 1095px) {
+
+    .section__experience--view {
+        width: 90%;
+        min-width: 450px;
+
+
+    }
+
+    .section__experience--proyecto--container {
+        width: 90%;
+        min-width: 450px;
+    }
+
+
+    .section__experience--container {
+        justify-content: center;
+        min-width: 460px;
+
+    }
+
+}
+
+/*________________________________________________________________________section__skills*/
+.section__skills {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px 15vw;
+    font-size: 20px;
+    padding: 50px;
+}
+
+.section__skills--container {
+    display: flex;
+}
+
+.section__skills__container--ul {
+    width: 75%;
+    text-align: center;
+}
+
+.section__skills--ul {
+    list-style-type: none;
+}
+
+
+.section__skills--icon .icon {
+   
+    height: 100%;
+    width: 100%;
+    
+
+}
+
+.section__skills--icon {
+    width: 25%;
+    position: relative;
+    
+}
+
+.section__skills--icon .icon--html {
+   
+    height: 14.28%;
+    position: absolute;
+    top: 0;
+    width: 400%;
+    left: -300%;
+    opacity: 0;
+    
+}
+.section__skills--icon .icon--html i {
+    position: absolute;
+    top: 30px;
+    right: 0;
+    font-size: 200px;
+    
+}
+
+.section__skills--icon .icon--css {
+ 
+    height: 14.28%;
+    position: absolute;
+    top: 14.28%;
+    width: 400%;
+    left: -300%;
+    opacity: 0;
+   
+}
+
+.section__skills--icon .icon--css i {
+    position: absolute;
+    top: 0px;
+    right: 0;
+    font-size: 200px;
+    
+}
+.section__skills--icon .icon--angular {
+    
+    height: 14.28%;
+    position: absolute;
+    top: 28.56%;
+    width: 400%;
+    left: -300%;
+    opacity: 0;
+    
+}
+
+.section__skills--icon .icon--angular i {
+    position: absolute;
+    top: -30px;
+    right: 0;
+    font-size: 200px;
+    
+}
+
+.section__skills--icon .icon--sql {
+    
+    height: 14.28%;
+    position: absolute;
+    top: 42.85%;
+    width: 400%;
+    left: -300%;
+    opacity: 0;
+    
+}
+
+.section__skills--icon .icon--sql i {
+    position: absolute;
+    top: -60px;
+    right: 0;
+    font-size: 200px;
+    
+}
+
+.section__skills--icon .icon--java {
+  
+    height: 14.30%;
+    position: absolute;
+    top: 57.13%;
+    width: 400%;
+    left: -300%;
+    opacity: 0;
+    
+}
+
+.section__skills--icon .icon--java i {
+    position: absolute;
+    top: -90px;
+    right: 0;
+    font-size: 200px;
+    
+}
+
+
+.section__skills--icon .icon--vue {
+    
+    height: 14.28%;
+    position: absolute;
+    top: 71.44%;
+    width: 400%;
+    left: -300%;
+    opacity: 0;
+   
+}
+
+.section__skills--icon .icon--vue i {
+    position: absolute;
+    top: -120px;
+    right: 0;
+    font-size: 200px;
+    
+}
+
+
+.section__skills--icon .icon--bootstrap {
+    
+    height: 14.28%;
+    position: absolute;
+   bottom: 0px;
+   width: 400%;
+   left: -300%;
+   opacity: 0;
+   
+}
+
+.section__skills--icon .icon--bootstrap i {
+    position: absolute;
+    top: -150px;
+    right: 0;
+    font-size: 200px;
+    
+}
+
+
+
+.section__skills--icon .icon--html:hover{
+    opacity: 1;
+    transition: all 1s;
+    text-shadow: 0px 0px 15px rgb(255, 124, 2);
+}
+.section__skills--icon .icon--css:hover{
+    opacity: 1;
+    transition: all 1s;
+    text-shadow: 0px 2px 20px rgb(0, 0, 255);
+}
+.section__skills--icon .icon--angular:hover{
+    opacity: 1;
+    transition: all 1s;
+    text-shadow: 0px 2px 20px rgb(255, 0, 0);
+}
+
+.section__skills--icon .icon--sql:hover{
+    opacity: 1;
+    transition: all 1s;
+    text-shadow: 0px 2px 10px rgb(0, 255, 255);
+}
+
+.section__skills--icon .icon--java:hover{
+    opacity: 1;
+    transition: all 1s;
+    text-shadow: 0px 0px 10px rgb(255, 217, 0);
+}
+.section__skills--icon .icon--vue:hover{
+    opacity: 1;
+    transition: all 1s;
+    text-shadow: 0px 0px 10px rgb(0, 255, 0);
+}
+
+.section__skills--icon .icon--bootstrap:hover{
+    opacity: 1;
+    transition: all 1s;
+    text-shadow: 0px 2px 20px rgb(255, 0, 255);
+}
+
+
+
+.section__skills h2 {
+    font-size: 3em;
+    font-family: 'Shadows Into Light', cursive;
+    text-align: center;
+}
+
+/*footer _______________________________________________________________________*/
+.footer__ul{
+    position: relative;
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    padding: 20px;
+   
+}
+
+.footer__ul  li a{
+    display: flex;
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    
+   
+   
+
+}
+
+
+.footer__ul  li {
+  
+    list-style: none;
+    
+    
+}
+
+.footer__ul  li .fa-linkedin{
+    position: relative;
+    list-style: none;
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    border: solid rgb(255, 255, 255) 1px;
+    
+
+}
+.footer__ul  li .fa-github{
+    position: relative;
+    list-style: none;
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    border: solid rgb(255, 255, 255) 1px;
+    
+
+}
+
+
+
+.footer__ul  li .fa-github:hover{
+    border: solid #15ff00 1px;
+    box-shadow: 0px 0px 8px 1px #15ff00;
+    color: #15ff00;
+
+}
+
+
+.footer__ul  li .fa-linkedin:hover{
+    border: solid #0099ff 1px;
+    box-shadow: 0px 0px 8px 2px #0099ff;
+    color: #0099ff;
+
+}
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer__ul  li i{
+    color: #777;
+    font-size: 1.75em !important;
+   
+ }
+ 
+ 
+
+
+
+
+  
+
